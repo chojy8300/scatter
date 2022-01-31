@@ -157,14 +157,16 @@ def print_xy_atoms(atoms, s, kind="xray"):
 
 
 def print_xy(atoms, s,  ys):
-
-    print("\n      ", end=' ')
-    for atom in atoms:
-        print("{:>10s}".format(atom), end=' ')
-    for i, val in enumerate(s):
-        print("\n{:6.2f}".format(val), end=' ')
-        for j in range(len(atoms)):
-            print("{:10.5f}".format(ys[j][i]), end=' ')
+    fname = input('Input output file name: ')
+    with open(fname+'_sfac.txt', 'w') as f:
+        print("\n      ", end=' ', file=f)
+        for atom in atoms:
+            print("{:>10s}".format(atom), end=' ', file=f)
+        for i, val in enumerate(s):
+            print("\n{:6.2f}".format(val), end=' ', file=f)
+            for j in range(len(atoms)):
+                print("{:10.5f}".format(ys[j][i]), end=' ', file=f)
+    f.close()
 
 
 def check_consistency(atoms, s, plot=False,   show=False, threshold=0):
