@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scatter
+Version: 1.0.2
+Summary: A python tool to plot and output atomic scattering factors
+Home-page: https://github.com/stefsmeets/scatter
+Author: Stef Smeets
+Author-email: stef.smeets@mmk.su.se
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENCE
+
+UNKNOWN
+

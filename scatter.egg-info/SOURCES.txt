@@ -1,0 +1,17 @@
+LICENCE
+setup.py
+scatter/__init__.py
+scatter/atomic_radii.py
+scatter/dt1969.py
+scatter/it_table_4322.py
+scatter/it_table_4323.py
+scatter/peng1998.py
+scatter/peng1999.py
+scatter/scatter.py
+scatter/wk1995.py
+scatter.egg-info/PKG-INFO
+scatter.egg-info/SOURCES.txt
+scatter.egg-info/dependency_links.txt
+scatter.egg-info/entry_points.txt
+scatter.egg-info/requires.txt
+scatter.egg-info/top_level.txt

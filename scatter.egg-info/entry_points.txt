@@ -1,0 +1,3 @@
+[console_scripts]
+scatter = scatter.scatter:main
+
